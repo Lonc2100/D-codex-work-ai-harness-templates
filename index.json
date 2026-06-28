@@ -1,0 +1,21 @@
+{
+  "templates": [
+    {
+      "id": "harness-kernel",
+      "type": "full",
+      "name": "AI Harness Kernel",
+      "description": "AI-readable governance skeleton without app stack.",
+      "path": "templates/harness-kernel",
+      "tags": ["harness", "governance", "codex", "trellis"]
+    },
+    {
+      "id": "harness-next-local",
+      "type": "full",
+      "name": "AI Harness Next Local",
+      "description": "Next.js local-first workbench with Harness gates.",
+      "path": "templates/harness-next-local",
+      "tags": ["harness", "nextjs", "local-first", "ui"]
+    }
+  ]
+}
+

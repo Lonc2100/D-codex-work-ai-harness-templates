@@ -1,0 +1,12 @@
+{
+  "name": "ai-harness-templates",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "smoke:kernel": "node scripts/smoke-template.mjs harness-kernel",
+    "smoke:next": "node scripts/smoke-template.mjs harness-next-local",
+    "smoke": "npm run smoke:kernel && npm run smoke:next"
+  }
+}
+

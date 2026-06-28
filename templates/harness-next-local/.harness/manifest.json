@@ -1,0 +1,34 @@
+{
+  "templateId": "harness-next-local",
+  "templateVersion": "0.1.0",
+  "managedFiles": [
+    "AGENTS.md",
+    "ARCHITECTURE.md",
+    "docs/context/index.md",
+    "docs/context/current-state.md",
+    "docs/context/engineering-principles.md",
+    "docs/context/user-preferences.md",
+    "docs/context/external-knowledge.md",
+    "docs/context/decisions.md",
+    "docs/mainline-framework.md",
+    "docs/spec-governance.md",
+    "docs/workflow-boundaries.md",
+    "docs/quality-execution-system.md",
+    "docs/golden-principles.md",
+    "docs/agent-playbook.md",
+    "docs/handoffs/README.md",
+    "scripts/context-check.mjs",
+    "scripts/harness-lint.mjs",
+    "scripts/template-doctor.mjs",
+    "tests/harness-structure.test.mjs",
+    "harness-template.json"
+  ],
+  "neverOverwrite": [
+    "docs/task-board.md",
+    "docs/handoffs/",
+    "src/domain/",
+    ".trellis/tasks/",
+    ".trellis/workspace/"
+  ]
+}
+

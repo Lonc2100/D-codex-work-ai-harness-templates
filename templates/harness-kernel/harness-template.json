@@ -1,0 +1,39 @@
+{
+  "name": "ai-harness-kernel",
+  "version": "0.1.0",
+  "status": "template",
+  "purpose": "Reusable governance skeleton for AI-readable projects.",
+  "domainLayers": ["types", "config", "repo", "providers", "service", "runtime", "ui"],
+  "requiredFiles": [
+    "AGENTS.md",
+    "ARCHITECTURE.md",
+    "docs/context/index.md",
+    "docs/context/current-state.md",
+    "docs/context/engineering-principles.md",
+    "docs/context/user-preferences.md",
+    "docs/context/external-knowledge.md",
+    "docs/context/decisions.md",
+    "docs/mainline-framework.md",
+    "docs/spec-governance.md",
+    "docs/workflow-boundaries.md",
+    "docs/quality-execution-system.md",
+    "docs/golden-principles.md",
+    "docs/agent-playbook.md",
+    "docs/task-board.md",
+    "docs/handoffs/README.md",
+    "scripts/context-check.mjs",
+    "scripts/harness-lint.mjs",
+    "scripts/template-doctor.mjs",
+    "tests/harness-structure.test.mjs",
+    ".harness/manifest.json"
+  ],
+  "requiredScripts": [
+    "context:check",
+    "lint:arch",
+    "test:structure",
+    "template:doctor",
+    "verify:harness",
+    "verify"
+  ]
+}
+
